@@ -3,7 +3,7 @@ package co.grandcircus.FamousLab.entity;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class CompleteScientists {
+public class Complete {
 
 	private String firstName;
 	private String lastName;

@@ -4,24 +4,24 @@ import java.util.List;
 
 public class AllData {
 
-	private List<TinyScientists> tiny;
-	private List<CompleteScientists> complete;
+	private List<Tiny> tiny;
+	private List<Complete> complete;
 	
-	public List<TinyScientists> getTinyscientists() {
+	public List<Tiny> getTiny() {
 		return tiny;
 	}
-	public void setTinyscientists(List<TinyScientists> tinyscientists) {
-		this.tiny = tinyscientists;
+	public void setTiny(List<Tiny> tiny) {
+		this.tiny = tiny;
 	}
-	public List<CompleteScientists> getCompletescientists() {
+	public List<Complete> getComplete() {
 		return complete;
 	}
-	public void setCompletescientists(List<CompleteScientists> completescientists) {
-		this.complete = completescientists;
+	public void setComplete(List<Complete> complete) {
+		this.complete = complete;
 	}
 	@Override
 	public String toString() {
-		return "AllData [tinyscientists=" + tiny + ", completescientists=" + complete + "]";
+		return "AllData [tiny=" + tiny + ", complete=" + complete + "]";
 	}
-	
+
 }

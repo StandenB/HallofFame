@@ -33,7 +33,7 @@ public class FamousController {
 		// AllData result = response.getBody();
 		// System.out.println(result);
 		
-		mav.addObject("tiny", response.getTinyscientists()); 
+		mav.addObject("tiny", response.getTiny()); 
 		return mav;
 	}
 	
@@ -49,11 +49,11 @@ public class FamousController {
 		
 		// Make the Request.
 		AllData response = restTemplate.getForObject(url, AllData.class);
-System.out.println(response.getCompletescientists());
+		System.out.println(response.getComplete());
 		// Extract body from response.
 		//AllData result = response.getBody();
 		//System.out.println(result);
-		mav.addObject("complete", response.getCompletescientists()); 
+		mav.addObject("complete", response.getComplete()); 
 		return mav;
 	}
 }

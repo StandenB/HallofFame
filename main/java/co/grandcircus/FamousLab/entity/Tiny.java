@@ -3,7 +3,7 @@ package co.grandcircus.FamousLab.entity;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class TinyScientists {
+public class Tiny {
 
 	private String name;
 	private String invented;
